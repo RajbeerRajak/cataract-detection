@@ -12,7 +12,6 @@ The phase 2 implementation which deals with the type classification, has obtaine
 
 The results have been made accessible using web and Flask based user interface.
 
-The phase 1 implementation of the project which works on binary classification of cataract has been compiled into a conference paper and accepted in the “International Conference on Artificial Intelligence: Advances and Applications (ICAIAA 2021).”
 Algorithms used
 
 PHASE 1
@@ -30,6 +29,19 @@ PHASE 2
 3. MOBILENET V2
 4. SQUEEZENET
 
-If you wish to learn before in-depth about GLCM texture feature extraction algorithm you refer the following written by [Kamaljit Kaur](https://github.com/kamaljitkaur98)
+## Set-up
 
-https://www.notion.so/Understanding-GLCM-7d2501afd206430b906e4a9851e86280
+Move to the frontend folder a.k.a GUI:
+```bash
+cd GUI
+```
+
+Run the project via it's flask framework:
+```bash
+python app.py
+```
+
+In case of any dependency errors:
+```bash
+pip install
+```
